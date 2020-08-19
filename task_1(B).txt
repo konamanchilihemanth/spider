@@ -1,0 +1,6 @@
+given the number of elements of the string is a power of 2.
+so, write a recursive function which takes a string,length of the string and answer as arguements and return the answer.
+initally send the whole string and value of n and ans=0 as arguements.
+now copy half of the string into another string(c) and double it(mean double the c).
+now check if s equal to c.if it equals, then return function( half of s string, half of n,answer+1). continue.....
+the base condition is if n==1, then return the answer.

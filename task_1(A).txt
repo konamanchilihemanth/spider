@@ -1,0 +1,8 @@
+every number(n) can be represented as the average of its successor(n+1) and its predecessor(n-1)
+so first find the positions of rightmost set(1) bit and clear(0) bit. let the positions be B and A respectively.
+now, the predecessor of the binary string is given by making the Bth position 0 and all the right elements from B as 1.
+similarly, the successor is given by making the Ath position 1 and all the right elements from A as 0.
+here the condition is number of digits in the given binary string, predecessor and successor should be same.
+this condition is not satisfied for a binary string whose elements are all same.
+eg: if the string is 0000, we are not allowed for negative numbers.
+    if the string is 1111(4 digits), the greatest number among the two numbers is always greater than or equal to its successor i.e., 10000(5 digits) which will be having more than 4 digits.

@@ -1,0 +1,8 @@
+store the given 6 numbers in a array in descending order.
+now ask product of 1 and 2 elements and store it as x
+similarly ask for the product of 1 and 3 elements and store it as y.
+now search for the element in the stored array which divides both x and y and if found... break the loop.
+now store that founded element(k) in the vector v as first element.
+also store x/k and y/k as 2nd and 3rd elements.
+similarly repeat the process for (4,5) and (4,6).
+at last print the vector v. 

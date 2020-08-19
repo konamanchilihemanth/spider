@@ -1,0 +1,6 @@
+calculate the new rating(scored only during contests)
+initially new rating is 0. now check if contest happens.
+if contest happens.. check for status of SCN.
+if he ate SCN increase new  rating by x units.
+if he not, then decrease new rating by y units.
+after all if new rating is greater than 0 then print "promoted",less than 0 then print "demoted",equal to zero then print "no change"
