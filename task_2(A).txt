@@ -1,0 +1,7 @@
+consider two variables(sum and ans) and initialise them to zero.
+now traverse along the string.
+if the next element is '<'... increment sum.
+if the next element is '>'... decrement sum.
+if sum becomes zero... equal ans to sum.
+if sum becomes negative... break the loop.
+at last print the value of answer.

@@ -1,0 +1,21 @@
+declare two variables( sum and ans) and initialise sum to zero and ans to n.
+declare a structure left which contains the values of left(L) and value(V).
+similarly declare a structure right which contains the values of right(R) and value(V).
+now declare an array of type left(A) and also array of type right(B).
+input the values.
+sort the arrays A and B in increasing order of L values and R values respectively.
+now traverse along the two sorted arrays(A and B) likewise we do it in the merge sort(divide and conqueror algorithm)
+
+if the elment is a left element... then follow these steps
+*** add the value of V to sum.
+
+if the element is a right element... then follow these steps
+*** add the value of R to sum
+*** compare sum and ans.
+*** if sum is greater than ans.. then equal the value of sum to ans.
+*** if sum is less than or equal to ans.. then do nothing.
+*** after comparision...  subtract the values of R and V fom sum.
+
+continue the traversing.
+at last print the value of answer.
+ 
