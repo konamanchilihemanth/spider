@@ -1,0 +1,4 @@
+the answer is simply p*(p+1)/2
+where p is the number of prime numbers which are less than or equal to n.
+the number of prime numbers can be easily calculated by using sieve of eratosthenes.
+I learned this algorithm during the math problem question given in SOP.

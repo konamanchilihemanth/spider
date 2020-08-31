@@ -1,0 +1,6 @@
+there is no better algorithm to follow
+simply take input as a string( as the max value of n is very very large)
+then add the elements of the string by converting them into integers.
+now again convert the sum into string and increment the value of answer
+continue the process by writing a recursive function.
+when the length of the string becomes 1... stop and print the value of answer.
