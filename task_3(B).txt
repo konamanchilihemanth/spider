@@ -1,0 +1,16 @@
+in this problem, if n=1.. then simply the answer is sum of all elements of the array(a).
+but if n=2, then it makes a bit difficult.
+here, the answer cannot be greater than sum/2 (where sum is the sum of all elements of the array(a)).
+now check whether we can represent sum/2 as sum of some elements of the array(a).
+if yes.. print sum/2
+if not.. check for its decremented value.
+continue till we get yes.
+
+now,checking whether a number k is represented as sum of some elements of the array is done via dynamic programming.
+consider a 2-dimensional boolean array(b) with m+1 and k+1 as number of rows and coloumns respectively.
+now if b[i][j]=1 then we can represent j as sum of some elements from 0th position to ith position.
+here the key points are:
+if(a[i]>j)
+then b[i][j]=b[i-1][j]
+else
+b[i][j]=b[i-1][j]||b[i-1][j-a[i-1]]
